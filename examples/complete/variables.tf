@@ -1,5 +1,5 @@
 variable "password" {
-  default = "password"
+  default = "{var_password}"
 }
 variable "rds_vpc_id"{
   default ="vpc-9c3663f4"
